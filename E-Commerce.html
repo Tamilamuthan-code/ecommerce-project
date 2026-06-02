@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ShopJS - E-Commerce</title>
+  <link rel="stylesheet" href="E-Commerce.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <h1>🛍 ShopJS</h1>
+    <button class="cart-btn" onclick="toggleCart()">
+      🛒 Cart <span class="badge" id="cart-count">0</span>
+    </button>
+  </nav>
+
+  <!-- SEARCH & FILTER -->
+  <div class="controls">
+    <input
+      type="text"
+      id="search-input"
+      placeholder="🔍 Search products..."
+      oninput="renderProducts()"
+    />
+    <select id="category-select" onchange="renderProducts()">
+      <option value="All">All Categories</option>
+      <option value="Electronics">Electronics</option>
+      <option value="Fashion">Fashion</option>
+      <option value="Kitchen">Kitchen</option>
+      <option value="Sports">Sports</option>
+    </select>
+  </div>
+
+  <!-- MAIN LAYOUT -->
+  <div class="main">
+
+    <!-- PRODUCT GRID -->
+    <div class="products-section">
+      <div class="section-label" id="product-count"></div>
+      <div class="products-grid" id="products-grid"></div>
+    </div>
+
+    <!-- CART PANEL -->
+    <div class="cart-panel" id="cart-panel">
+      <h2>🛒 Your Cart</h2>
+      <div id="cart-items"></div>
+      <div id="cart-summary"></div>
+    </div>
+
+  </div>
+
+  <script src="E-Commerce.js"></script>
+</body>
+</html>
