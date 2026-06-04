@@ -12,7 +12,7 @@ const products = [
     name: "Formal Shoes",
     category: "Fashion",
     price: 1999,
-    image: "Image/Fashion/shoes.jpg"
+    image: "Image/Fashion/shoe.jpg"
   },
 
   {
