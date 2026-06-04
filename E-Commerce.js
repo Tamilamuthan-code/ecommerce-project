@@ -4,7 +4,7 @@ const products = [
     name: "Wireless Headphones",
     category: "Electronics",
     price: 2499,
-    image: "Image/Electronics/headphone.jpg"
+    image: "headphone.jpg"
   },
 
   {
@@ -12,7 +12,7 @@ const products = [
     name: "Formal Shoes",
     category: "Fashion",
     price: 1999,
-    image: "Image/Fashion/shoe.jpg"
+    image: "shoe.jpg"
   },
 
   {
@@ -20,7 +20,7 @@ const products = [
     name: "Coffee Maker",
     category: "Kitchen",
     price: 3499,
-    image: "Image/Kitchen/coffeemaker.jpg"
+    image: "coffeemaker.jpg"
   },
 
   {
@@ -28,7 +28,7 @@ const products = [
     name: "Badminton Racket",
     category: "Sports",
     price: 799,
-    image: "Image/Sports/badminton.jpg"
+    image: "badminton.jpg"
   },
 
   {
@@ -36,7 +36,7 @@ const products = [
     name: "Smartwatch",
     category: "Electronics",
     price: 4999,
-    image: "Image/Electronics/smartwatch.jpg"
+    image: "smartwatch.jpg"
   },
 
   {
@@ -44,7 +44,7 @@ const products = [
     name: "Sunglasses",
     category: "Fashion",
     price: 1299,
-    image: "Image/Fashion/sunglass.jpg"
+    image: "sunglass.jpg"
   },
 
   {
@@ -52,7 +52,7 @@ const products = [
     name: "Blender",
     category: "Kitchen",
     price: 1799,
-    image: "Image/Kitchen/blender.jpg"
+    image: "blender.jpg"
   },
 
   {
@@ -60,7 +60,7 @@ const products = [
     name: "Cricket Bat",
     category: "Sports",
     price: 2199,
-    image: "Image/Sports/cricketbat.jpg"
+    image: "cricketbat.jpg"
   },
 
   {
@@ -68,7 +68,7 @@ const products = [
     name: "Laptop",
     category: "Electronics",
     price: 49999,
-    image: "Image/Electronics/laptop.jpg"
+    image: "laptop.jpg"
   },
 
   {
@@ -76,7 +76,7 @@ const products = [
     name: "Bracelet",
     category: "Fashion",
     price: 599,
-    image: "Image/Fashion/bracelet.jpg"
+    image: "bracelet.jpg"
   },
 
   {
@@ -84,7 +84,7 @@ const products = [
     name: "Air Fryer",
     category: "Kitchen",
     price: 4299,
-    image: "Image/Kitchen/airfryer.jpg"
+    image: "airfryer.jpg"
   },
 
   {
@@ -92,7 +92,7 @@ const products = [
     name: "Football",
     category: "Sports",
     price: 699,
-    image: "Image/Sports/football.jpg"
+    image: "football.jpg"
   }
 ];
 
