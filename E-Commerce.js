@@ -510,11 +510,11 @@ function placeOrder() {
     return;
   }
 
-  // Success
+
   closeCheckout();
   alert(`Order Placed Successfully!\n\n Delivering to:\n${fname} ${lname}\n${address}, ${city} - ${pincode}\n${state}\n ${phone}\n\nThank you for shopping at ShopJS!`);
 
-  // Cart clear
+
   cart = {};
   renderProducts();
   renderCart();
